@@ -5,7 +5,7 @@ export const ENV = {
     MONGODB_URI : process.env.MONGODB_URI,
     NODE_ENV : process.env.NODE_ENV,
     CLERK_PUBLISHABLE_KEY:process.env.CLERK_PUBLISHABLE_KEY,
-    CLERK_SECRET_KEY:process.env,CLERK_SECRET_KEY,
+    CLERK_SECRET_KEY:process.env.CLERK_SECRET_KEY,
     STREAM_API_KEY:process.env.STREAM_API_KEY,
     STREAM_API_SECRET:process.env.STREAM_API_SECRET,
     SENTRY_DNS:process.env.SENTRY_DNS,
