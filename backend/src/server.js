@@ -10,9 +10,9 @@ const app = express();
 
 app.use(express.json()); //access to req.body
 
-app.use(clerkMiddleware()); //req.auth will be available in the request object
-
 app.use("/api/inngest", serve({ client: inngest, functions }));
+
+app.use(clerkMiddleware()); //req.auth will be available in the request object
 
 
 app.get("/", (req, res) => {
